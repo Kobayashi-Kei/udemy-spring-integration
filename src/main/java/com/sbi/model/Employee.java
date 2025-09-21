@@ -4,6 +4,7 @@ public class Employee {
     private int employeeId;
     private String employeeName;
     private String employeeStatus;
+    private String employeeDepartment;
 
     public int getEmployeeId() {
         return employeeId;
@@ -27,5 +28,13 @@ public class Employee {
 
     public void setEmployeeStatus(String employeeStatus) {
         this.employeeStatus = employeeStatus;
+    }
+
+    public String getEmployeeDepartment() {
+        return employeeDepartment;
+    }
+
+    public void setEmployeeDepartment(String employeeDepartment) {
+        this.employeeDepartment = employeeDepartment;
     }
 }

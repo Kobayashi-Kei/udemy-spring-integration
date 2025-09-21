@@ -33,5 +33,9 @@ public interface EmployeeGateway {
     @Gateway(requestChannel = "dev-emp-channel")
     public String getEmployeeIfADeveloper(String empDesignation);
 
+    // ### for Route ###
+    @Gateway(requestChannel = "emp-dept-channel")
+    public String getEmployeeDepartment(Employee employee);
+
 
 }
